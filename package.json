@@ -1,0 +1,26 @@
+{
+  "name": "database-js-sqlite3",
+  "version": "1.0.0",
+  "description": "SQLite driver for database-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "preversion": "pnpm test"
+  },
+  "keywords": [
+    "database",
+    "javascript",
+    "js",
+    "driver",
+    "sqlite"
+  ],
+  "author": "Thiago Delgado Pinto",
+  "license": "MIT",
+  "devDependencies": {
+    "database-js": "^3.0.11",
+    "mocha": "^10.6.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.1.2"
+  }
+}
